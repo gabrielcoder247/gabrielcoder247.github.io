@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display|Poppins);
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a-logo {
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    width: 100%;
+}
+
+nav a {
+    display: none;
+}
+
+header>* {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    height: 100%;
+    width: 100%;
+}
+
+.fa-bars {
+    width: 300px;
+    color: black;
+    height: 100%;
+    margin-left: 90%;
+    margin-top: -50px;
+    cursor: pointer;
+    outline: none;
+    font-size: 30px;
+}
