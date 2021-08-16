@@ -60,7 +60,7 @@ header > * {
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 10px;
   color: #1a2236;
   line-height: 1;
@@ -78,32 +78,17 @@ header > * {
   color: #1a2236;
 }
 
-.project-title {
-  align-self: flex-start;
-  width: 100%;
-  height: 100px;
-  font-family: 'Playfair Display', sans-serif;
-  margin-left: 10%;
-  margin-right: auto;
-  margin-bottom: -50px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 50px;
-  color: #1a2236;
-  line-height: 0.9;
-}
-
 .headline .main {
   width: 85%;
   height: 126px;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 17px;
   font-family: 'Poppins', sans-serif;
   line-height: 25px;
   letter-spacing: -0.02em;
   color: #1a2236;
-  margin-top: 20px;
+  margin-top: 40px;
   align-self: center;
   text-align: left;
   margin-right: auto;
@@ -139,5 +124,4 @@ header > * {
   margin-left: auto;
   margin-right: auto;
   background-position: center;
-  margin-bottom: 50px;
 }
