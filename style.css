@@ -60,7 +60,7 @@ header > * {
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 35px;
+  font-size: 33px;
   margin-bottom: 10px;
   color: #1a2236;
   line-height: 1;
@@ -88,7 +88,7 @@ header > * {
   line-height: 25px;
   letter-spacing: -0.02em;
   color: #1a2236;
-  margin-top: 40px;
+  margin-top: 30px;
   align-self: center;
   text-align: left;
   margin-right: auto;
@@ -102,12 +102,12 @@ header > * {
   background: #1a2236;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 50px;
   text-decoration: none;
   color: white;
   font-weight: 200;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   border: 0;
