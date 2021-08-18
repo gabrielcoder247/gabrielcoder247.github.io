@@ -336,14 +336,28 @@ ul li::before {
     text-align: left;
 }
 
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/ic_languages_mob.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
 .card-2 {
     background: #e2505c;
     margin-top: 10px;
+    background-image: url(images/Group-18.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .card-3 {
     background: #febf52;
     margin-top: 10px;
+    background-image: url(images/ic_skills.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .card-container {
@@ -366,11 +380,14 @@ h4 {
 }
 
 .cv {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     font-family: sans-serif;
     width: 90%;
     height: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #1a2236;
     margin-bottom: 50px;
     border: 0;
@@ -380,19 +397,25 @@ h4 {
 .mycv {
     color: #fff;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 300;
     line-height: 20px;
     font-family: sans-serif;
     width: 90%;
     height: 0px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 0px;
+    margin-right: 0xp;
+    margin-top: 15px;
     background-color: #1a2236;
-    margin-bottom: 50px;
     border: 0;
     border-radius: 5px;
+}
+
+img {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 100px;
 }
 
 a {
