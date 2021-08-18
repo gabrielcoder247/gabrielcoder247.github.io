@@ -2,7 +2,7 @@
 
 # MYPORTFOLIO MOBILE VERSION
 
-`This project is the second milestone in myportfolio website mobile version. Here i had to  create a new branch called "milestone-2", then continued create myporfolio mobile version. The goal was to combine all the tools and best practices I just learned into a repo: Github Workflows, Linters, Flexbox, Grid system, Documenting my repo professionally With a perfect README.`
+`This project is the second milestone in myportfolio website mobile version. Here i had to  create a new branch called "milestone-2", then continued building myporfolio mobile version. The goal was to combine all the tools and best practices I just learned into a repo: Github Workflows, Linters, Flexbox, Grid system, Documenting my repo professionally With a perfect README.`
 
 ![screenshot](images/screen-30.png)
 
