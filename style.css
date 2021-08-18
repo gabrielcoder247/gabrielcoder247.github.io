@@ -164,15 +164,63 @@ header>* {
 
 .bg-screen-5 {
     background-image: url(images/device-3.png);
-    /* align-self: flex-start;
-    width: 380px;
-    height: 100px;
-    font-family: 'Playfair Display', sans-serif;
-    margin-left: 50px;
-    margin-bottom: -30px;
+}
+
+.card-details {
+    /* display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: -5px;
+    height: 40vh;
+    width: 100vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #1a2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px); */
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+    margin-bottom: -5px;
+    height: 40vh;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #1a2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+}
+
+h3 {
     font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    color: #1a2236;
-    line-height: 0.9; */
+    font-weight: 300;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 20px;
+    line-height: 80%;
+    color: #fff;
+}
+
+.languages {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.language {
+    font-family: 'Poppins', sans-serif;
+    background: #98dede;
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    height: 15px;
+    justify-self: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
