@@ -18,7 +18,7 @@ Additional description about the project and its features.
 
 ## Getting Started
 ### Instructions on how to run my project locally on your machine
-1. Go my git repository (https://github.com/gabrielcoder247/myportfolio-2)
+1. Go my git repository (https://github.com/gabrielcoder247/myportfolio-2/tree/milestone-2)
 2. click on milestone-2
 3. then click on download zip folder
 4. open the folder on your local machine via code editor
