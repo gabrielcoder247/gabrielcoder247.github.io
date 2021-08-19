@@ -186,8 +186,9 @@ header > * {
 .card-details {
   display: flex;
   align-items: flex-start;
-  height: 30vh;
-  margin: 0;
+  height: 30%;
+  margin-bottom: 0;
+  padding-bottom: 20px;
   flex-direction: column;
   flex-wrap: wrap;
   background: #1a2236;
@@ -220,8 +221,8 @@ header > * {
   font-family: 'Poppins', sans-serif;
   background: #98dede;
   margin: 10px;
-  padding: 12px;
-  width: 60px;
+  padding: 8px;
+  width: 73px;
   height: 15px;
   justify-self: center;
   display: flex;
@@ -381,7 +382,7 @@ h4 {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 90%;
   height: 50px;
   margin-left: auto;
