@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# MYPORTFOLIO MOBILE SKELETON VERSION
+# MYPORTFOLIO MOBILE VERSION
 
-`This project is the second one in my Microverse journey. Here i had to set up a "myportfolio-2" repository. The goal was to combine all the tools and best practices I just learned into a repo: Github Workflows, Linters, Flexbox, Documenting my repo professionally With a perfect README.`
+`This project is the second milestone in myportfolio website mobile version. Here i had to  create a new branch called "milestone-2", then continued building myporfolio mobile version. The goal was to combine all the tools and best practices I just learned into a repo: Github Workflows, Linters, Flexbox, Grid system, Documenting my repo professionally With a perfect README.`
 
-![screenshot](images/my-portfolio-1.png)
+![screenshot](images/screen-31.png)
 
 Additional description about the project and its features.
 
@@ -18,8 +18,8 @@ Additional description about the project and its features.
 
 ## Getting Started
 ### Instructions on how to run my project locally on your machine
-1. Go my git repository (https://github.com/gabrielcoder247/myportfolio-2)
-2. click on download zip folder
+1. Go  to my git repository [myportfolio](https://github.com/gabrielcoder247/myportfolio-2/tree/milestone-2)
+2. then click on download zip folder
 3. open the folder on your local machine via code editor
 4. if you want to run the project, open it via the browser
 
