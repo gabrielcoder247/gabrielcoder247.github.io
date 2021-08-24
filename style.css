@@ -440,8 +440,8 @@ h4 {
   height: 150px;
   background-size: contain;
   background-position: center;
-  padding: 35px;
-  margin-left: -70px;
+  padding: 38px;
+  margin-left: -57px;
   margin-top: 30px;
 }
 
@@ -465,6 +465,11 @@ h4 {
   font-style: normal;
   font-weight: 400;
   color: #1a2236;
+  text-align: left;
+  width: 249px;
+  white-space: nowrap;
+  letter-spacing: 0;
+  line-height: 50px;
 }
 
 .get_started_text {

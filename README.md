@@ -25,11 +25,16 @@ Additional description about the project and its features.
 
 
 
-👤 **Author**
+👤 **Authors**
+
+**GABRIEL NWACHUKWU**
 
 - GitHub: [@githubhandle](https://github.com/gabrielcoder247)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nwachukwu-209613173/)
 
+ **AZARIA SAIDI ALLY**
+- GitHub: [@azy64](https://github.com/azy64)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/azaria-saidi-524780112/)
 
 
 ## 🤝 Contributing
