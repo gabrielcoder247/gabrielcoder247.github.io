@@ -429,3 +429,35 @@ img {
   height: 813px;
   background-color: #F9F9FA;
 }
+
+.icon-geometry {
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(images/image_geometry_3.png);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  background-position: center;
+  padding: 0px;
+  margin-top: 30px;
+}
+.get_started {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+  margin: 0;
+}
+.get_started p {
+  max-width: 90%;
+  text-align: left;
+  margin: 0;
+}
+.get_started_header {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  color: #1A2236;
+}
