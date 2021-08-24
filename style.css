@@ -422,3 +422,10 @@ img {
   flex-direction: column;
   align-content: center;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 813px;
+  background-color: #F9F9FA;
+}
