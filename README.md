@@ -1,10 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# MYPORTFOLIO MOBILE VERSION
+# MYPORTFOLIO MOBILE VERSION CONTACT FORM
 
-`This project is the second milestone in myportfolio website mobile version. Here i had to  create a new branch called "milestone-2", then continued building myporfolio mobile version. The goal was to combine all the tools and best practices I just learned into a repo: Github Workflows, Linters, Flexbox, Grid system, Documenting my repo professionally With a perfect README.`
+`This project is the third milestone in myportfolio website mobile version. Here i and  **AZARIA SAIDI ALLY**
+GitHub: [@azy64](https://github.com/azy64) worked on it. I created a new branch called "milestone-3 and he created form-style and form-style-2 branches", then i built the html structures for the third milestone, my contact form,  footer and socail icons and he styled my contact forms and the footer and the social icons, so we built myporfolio mobile version contact form aas collaborators. The goal was to combine all the tools and best practices I just learned into a repo: Github Workflows, Linters, Flexbox, Grid system, Documenting my repo professionally With a perfect README.`
 
-![screenshot](images/screen-31.png)
+![screenshot](images/screenshoot-2.png)
 
 Additional description about the project and its features.
 
@@ -25,11 +26,16 @@ Additional description about the project and its features.
 
 
 
-👤 **Author**
+👤 **Authors**
+
+**GABRIEL NWACHUKWU**
 
 - GitHub: [@githubhandle](https://github.com/gabrielcoder247)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nwachukwu-209613173/)
 
+ **AZARIA SAIDI ALLY**
+- GitHub: [@azy64](https://github.com/azy64)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/azaria-saidi-524780112/)
 
 
 ## 🤝 Contributing

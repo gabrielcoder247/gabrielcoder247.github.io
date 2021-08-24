@@ -212,8 +212,12 @@ header > * {
   justify-content: flex-start;
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
-  margin-left: 10px;
-  margin-right: 20px;
+  margin-left: -30px;
+  margin-right: 0;
+}
+
+ul .languages {
+  list-style-type: none;
 }
 
 .language {
@@ -246,20 +250,19 @@ header > * {
   margin-top: 20px;
 }
 
-.text {
+.see-this-project .text {
   text-align: center;
+  white-space: nowrap;
   font-weight: bolder;
   margin-top: 11px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
 }
 
 .arrow {
   font-family: 'Poppins', sans-serif;
   width: 20.57px;
   height: 15.35px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 15px;
   margin-top: 17px;
 }
 
@@ -306,13 +309,13 @@ header > * {
   font-family: 'Poppins', sans-serif;
 }
 
-ul {
+.group {
   list-style: none;
   width: 50%;
   margin-left: 40px;
 }
 
-ul li {
+.group li {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -323,7 +326,7 @@ ul li {
   color: #fff;
 }
 
-ul li::before {
+.group li::before {
   content: "\2022";
   color: #fff;
   font-weight: bold;
@@ -335,8 +338,6 @@ ul li::before {
 }
 
 .card-1 {
-  display: flex;
-  flex-direction: column;
   background-image: url(images/ic_languages_mob.png);
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -410,7 +411,7 @@ h4 {
   border-radius: 5px;
 }
 
-img {
+.see-this-project img {
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 100px;
@@ -421,4 +422,173 @@ img {
   display: flex;
   flex-direction: column;
   align-content: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 813px;
+  background-color: #f9f9fa;
+}
+
+.icon-geometry {
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(images/image_geometry_3.png);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  background-position: center;
+  padding: 38px;
+  margin-left: -57px;
+  margin-top: 30px;
+}
+
+.get_started {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+  margin: 0;
+}
+
+.get_started p {
+  max-width: 90%;
+  text-align: left;
+  margin: 0;
+}
+
+.get_started_header {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  color: #1a2236;
+  text-align: left;
+  width: 249px;
+  white-space: nowrap;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+.get_started_text {
+  margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  width: 380px;
+}
+
+.btn {
+  max-width: 100%;
+  height: 70px;
+  background: #1a2236;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  border: solid 1px #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
+.btn:active {
+  border: solid 3px #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-between;
+  margin: 0;
+  width: 90%;
+  padding: 1em;
+}
+
+input {
+  height: 50px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 8em;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  max-width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+.social_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a2236;
+  max-width: 97%;
+}
+
+.social_handles {
+  display: flex;
+  width: 100px;
+  margin: 0;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.get_my_resume {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #92dcdc;
+}
+
+.fab {
+  color: #fff;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 1.5em;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.get_my_resume img {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+
+.social_handles a img {
+  padding: 20px;
+}
+
+.social_handles a img:hover {
+  color: #92dcdc;
 }
