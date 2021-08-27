@@ -950,4 +950,233 @@ nav a {
         width: 300px;
         min-height: 300px;
     }
+    .frameworks {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        min-height: 300px;
+        background: #e2505c;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 300px;
+        height: 300px;
+    }
+    .about .about_me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        min-height: 300px;
+    }
+    .about_me h3 {
+        font-size: 60px;
+        margin-top: 40px;
+        font-weight: bold;
+        font-family: "Playfair Display", sans-serif;
+        color: #1a2236;
+    }
+    .about_me p {
+        text-align: justify;
+        margin-left: 30px;
+    }
+    .skill_dot_bt {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -100px;
+        margin-left: -100px;
+    }
+    .skill_dot_bt .skills {
+        background: #febf52;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        min-height: 300px;
+    }
+    .skill_dot_bt .dots_vec {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        min-height: 300px;
+    }
+    .dots_vec img {
+        width: 200px;
+        min-height: 200px;
+        margin-left: 99px;
+        margin-top: 90px;
+    }
+    .about_me .cv {
+        font-family: sans-serif;
+        background-color: #1a2236;
+        margin-bottom: 50px;
+        border: 0;
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .about_me .mycv {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 4px;
+        margin-top: 10px;
+        line-height: 27px;
+    }
+    .icon-geometry {
+        display: none;
+    }
+    .icon-geometry_2 {
+        display: flex;
+        justify-content: flex-start;
+        background-image: url(images/image-geometry_6.png);
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 150px;
+        background-size: contain;
+        background-position: center;
+        padding: 80px;
+        margin-top: -2px;
+        margin-left: -90px;
+    }
+    .footer {
+        padding: 0;
+        margin-top: -60%;
+        background: #f9f9fa;
+        height: 950px;
+    }
+    .footer .icon-geometry-footer {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -150px;
+    }
+    .footer .icon-geometry-footer img {
+        width: 200px;
+        min-height: 200px;
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    .mobile_form {
+        display: none;
+    }
+    .desktop_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-between;
+        margin: 0 auto;
+        width: 500px;
+        padding: 1em;
+    }
+    input {
+        height: 50px;
+    }
+    .input_area {
+        display: flex;
+    }
+    .input_area .email {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    textarea {
+        vertical-align: top;
+        height: 8em;
+        width: 490px;
+        margin-left: 10px;
+    }
+    input,
+    textarea {
+        font: 1em sans-serif;
+        box-sizing: border-box;
+        border: 1px solid #999;
+        margin-bottom: 15px;
+        border-radius: 4px;
+    }
+    input:focus,
+    textarea:focus {
+        border-color: #000;
+    }
+    .get_started_text {
+        width: 500px;
+        margin-left: 30px;
+    }
+    .desktop_btn {
+        width: 250px;
+        height: 60px;
+        margin-left: 130px;
+        margin-top: 25px;
+        font-size: 18px;
+        font-weight: bold;
+        background: #1a2236;
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        border: 0;
+        border-radius: 5px;
+    }
+    .btn_desktop:hover {
+        border: solid 1px #1a2236;
+        background-color: #fff;
+        color: #1a2236;
+    }
+    .btn_desktop:active {
+        border: solid 3px #1a2236;
+        background-color: #fff;
+        color: #1a2236;
+    }
+    .social_section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 200px;
+    }
+    .get_started_header {
+        font-size: 100px;
+        font-weight: bold;
+    }
+    .hash {
+        background-image: url(images/ic_languages_mob.png);
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 100px;
+        align-self: flex-end;
+        margin-right: -50px;
+        color: #fff;
+    }
+    .rectangle_19 {
+        background-image: url(images/Group-18.png);
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 100px;
+        align-self: flex-end;
+        margin-right: -50px;
+        color: #fff;
+    }
+    h4 {
+        margin-left: -20px;
+    }
+    li {
+        margin-left: -80px;
+    }
+    .vector_1 {
+        background-image: url(images/ic_skills.png);
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 100px;
+        align-self: flex-end;
+        margin-right: -50px;
+        margin-top: -45px;
+        color: #fff;
+    }
 }
