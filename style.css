@@ -759,4 +759,195 @@ nav a {
         background-image: url(images/Rectangle21device__4.png);
         background-repeat: no-repeat;
     }
+    .sub_proj_name {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: 50%;
+        background: #1a2236f2;
+        margin-left: auto;
+        margin-top: 40px;
+    }
+    .laptop_mobile {
+        width: 100%;
+        height: 100%;
+        margin-top: -20%;
+        margin-left: auto;
+        grid-column: 1/3;
+        margin-bottom: 0;
+        padding-bottom: 30px;
+    }
+    .laptop_mobile img {
+        width: 82%;
+        height: 80%;
+        margin-top: -10%;
+        margin-left: auto;
+    }
+    .smaller_laptop {
+        width: 100%;
+        height: 70%;
+        margin-top: -26%;
+        margin-left: auto;
+    }
+    .smaller_laptop img {
+        width: 100%;
+        height: 70%;
+        padding: 0;
+        margin-top: -26%;
+        margin-left: auto;
+    }
+    .right_geometry {
+        width: 115%;
+        height: 50%;
+        margin-left: -80.5px;
+        margin-top: -85.5%;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .right_geometry img {
+        width: 115%;
+        height: 50%;
+        margin-bottom: 0;
+        margin-top: -67.5%;
+        margin-left: -84.5px;
+    }
+    .fab {
+        color: #fff;
+        text-shadow: 1px 1px 1px #ccc;
+        font-size: 1.5em;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .small_geometry {
+        width: 60%;
+        height: 44%;
+        margin-top: -84%;
+    }
+    .small_geometry img {
+        margin-left: 185px;
+        width: 50%;
+        height: 43%;
+        margin-left: 56%;
+    }
+    .left_geometry {
+        width: 100%;
+        height: 100%;
+        margin-top: -84%;
+    }
+    .left_geometry img {
+        margin-bottom: auto;
+        width: 20%;
+        height: 20%;
+    }
+    .dots-geometry {
+        width: 100%;
+        height: 50%;
+        margin-top: -13px;
+    }
+    .dots-geometry img {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    .bg_workstation {
+        grid-column: 2/4;
+    }
+    .see-this-project {
+        margin-left: 30px;
+    }
+    .see-this-project .text {
+        font-size: 15px;
+    }
+    .proj_name {
+        grid-column: 2/4;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: 60%;
+        background: #1a2236f2;
+        margin-top: 0;
+        margin-bottom: 2%;
+    }
+    .proj_name p {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+        margin-left: 30px;
+    }
+    .proj_name .see-this-project {
+        align-self: flex-start;
+        width: 178px;
+        height: 44px;
+        border: 1px solid #fff;
+        color: white;
+        margin-top: 10px;
+        margin-left: 30px;
+        text-decoration: none;
+    }
+    .see-this-project .text {
+        display: flex;
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 40%;
+    }
+    .proj_name .languages {
+        margin-left: 20px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+    }
+    .languages .language-title {
+        width: 40%;
+    }
+    .img_workstation img {
+        width: 100%;
+        height: 50%;
+    }
+    .last-laptop {
+        width: 100%;
+        height: 80%;
+        grid-column: 3/4;
+        margin-top: -201.5%;
+        margin-left: -36.5%;
+    }
+    .last-laptop img {
+        width: 80%;
+        height: 65%;
+    }
+    .sub_proj_name .languages {
+        display: flex;
+        height: 15px;
+        margin-top: -10px;
+        margin-left: 22px;
+    }
+    .sub_proj_name p {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .sub_proj_name {
+        margin-top: 12%;
+    }
+    .about_desktop_version {
+        display: flex;
+        flex-direction: column;
+    }
+    .about_desktop_version .about {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -115%;
+    }
+    .about .language {
+        display: flex;
+        flex-direction: column;
+        background: #1c528a;
+        width: 300px;
+        min-height: 300px;
+    }
 }
