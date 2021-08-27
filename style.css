@@ -666,4 +666,50 @@ nav a {
     .geometry {
         display: none;
     }
+    .geometry_desktop {
+        background-image: url(images/image-geometry_1.png);
+        background-repeat: no-repeat;
+        width: 45vw;
+        height: 110vh;
+        margin-right: 0;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 50px;
+        grid-area: 1/2/5/3;
+    }
+    .headline .collaboration {
+        margin-left: 10px;
+        margin-right: auto;
+        width: 65%;
+        text-decoration: none;
+        color: white;
+        font-weight: 200;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        border: 0;
+        border-radius: 5px;
+    }
+    .headline button:hover {
+        border: solid 1px #1a2236;
+        background-color: #fff;
+        color: #1a2236;
+        width: 60%;
+    }
+    .headline button:active {
+        border: solid 3px #1a2236;
+        background-color: #fff;
+        color: #1a2236;
+        width: 60%;
+    }
+    .image-dots {
+        background-image: url(images/image_dots.png);
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+        justify-self: end;
+        align-self: start;
+        margin-top: -20px;
+        margin-right: 100px;
+    }
 }
