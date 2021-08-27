@@ -615,3 +615,21 @@ textarea:focus {
 nav a {
     display: none;
 }
+
+@media screen and (min-width: 1100px) {
+    /* Css for desktop version */
+    nav {
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 0.5px 0 #dddfe6;
+    }
+    nav a {
+        display: flex;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        padding: 5px;
+        color: #1a2236;
+    }
+}
