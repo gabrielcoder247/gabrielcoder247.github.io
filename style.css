@@ -15,6 +15,10 @@ a {
     width: 100%;
 }
 
+#submit {
+    z-index: 10;
+}
+
 .a-logo {
     display: flex;
     justify-content: flex-end;
@@ -671,19 +675,25 @@ nav a {
     .geometry_desktop {
         background-image: url(images/image-geometry_1.png);
         background-repeat: no-repeat;
-        min-width: 55vw;
+        min-width: 390%;
         height: 75%;
         padding-top: 50%;
-        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 40.5%;
+        margin-right: 10%;
         background-size: cover;
         background-position: center;
         margin-bottom: 50px;
         grid-area: 1/2/5/3;
     }
     .headline .collaboration {
+        width: 400px;
+        height: 70px;
+        background: #1a2236;
         margin-left: 10px;
-        margin-right: auto;
-        width: 65%;
+        margin-top: 80px;
+        margin-bottom: 50px;
         text-decoration: none;
         color: white;
         font-weight: 200;
@@ -697,23 +707,22 @@ nav a {
         border: solid 1px #1a2236;
         background-color: #fff;
         color: #1a2236;
-        width: 60%;
     }
     .headline button:active {
         border: solid 3px #1a2236;
         background-color: #fff;
         color: #1a2236;
-        width: 60%;
     }
-    .image-dots {
+    .headline .image-dots {
         background-image: url(images/image_dots.png);
         background-repeat: no-repeat;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         justify-self: end;
         align-self: start;
-        margin-top: 100px;
-        margin-right: 10px;
+        margin-top: 27px;
+        margin-right: -18%;
+        margin-left: -20%;
     }
     .mobile-grid-container {
         display: none;
@@ -732,9 +741,9 @@ nav a {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        width: 100px;
-        height: 100px;
-        margin-left: 10px;
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
         padding: 0;
     }
     .dot_geometry p {
@@ -752,7 +761,7 @@ nav a {
         height: 50%;
         display: flex;
         align-items: flex-end;
-        margin-top: -50px;
+        margin-top: 0;
     }
     .small_laptop img {
         max-width: 100%;
@@ -887,6 +896,16 @@ nav a {
         margin-left: 30px;
         text-decoration: none;
     }
+    .sub_proj_name .see-this-project {
+        align-self: flex-start;
+        width: 178px;
+        height: 44px;
+        border: 1px solid #fff;
+        background-color: #fff;
+        margin-top: 80px;
+        margin-left: 30px;
+        text-decoration: none;
+    }
     .proj_name .languages {
         margin-left: 20px;
         margin-top: -20px;
@@ -916,13 +935,21 @@ nav a {
         margin-top: -10px;
         margin-left: 22px;
     }
-    .sub_proj_name p {
+    .sub_proj_name .title_here {
         font-size: 18px;
         font-weight: bold;
         font-family: "Poppins", sans-serif;
         color: #fff;
         margin-left: 30px;
-        margin-top: 20px;
+        margin-top: 10px;
+    }
+    .sub_proj_name p {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        color: #1a2236;
+        margin-left: 30px;
+        margin-top: 10px;
     }
     .sub_proj_name {
         display: flex;
@@ -957,11 +984,6 @@ nav a {
         width: 300px;
         min-height: 300px;
         background: #e2505c;
-    }
-    ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .about_me {
         display: flex;
@@ -1012,17 +1034,18 @@ nav a {
         width: 300px;
         min-height: 300px;
     }
-    .group {
+    .about .group {
         list-style: none;
         margin: 0;
         padding: 0;
         width: 50%;
-        margin-left: 40px;
+        margin-left: 70px;
     }
-    .group li {
+    .about .group li {
         font-family: 'Poppins', sans-serif;
         font-size: 18px;
         font-style: normal;
+        white-space: nowrap;
         font-weight: 600;
         line-height: 27px;
         letter-spacing: -0.0525em;
@@ -1031,13 +1054,43 @@ nav a {
         margin: 0;
         padding: 0;
     }
-    .group li::before {
+    .about .group li::before {
         content: "\2022";
         color: #fff;
         font-weight: bold;
         display: inline;
         width: 1em;
-        margin-right: 20px;
+        margin-right: 5px;
+        margin-left: -1em;
+        text-align: left;
+    }
+    .skills .group {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        margin-left: 70px;
+    }
+    .skills .group li {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        white-space: nowrap;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: -0.0525em;
+        text-align: left;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .skills .group li::before {
+        content: "\2022";
+        color: #fff;
+        font-weight: bold;
+        display: inline;
+        width: 1em;
+        margin-right: 5px;
         margin-left: -1em;
         text-align: left;
     }
@@ -1164,27 +1217,28 @@ nav a {
         width: 500px;
         margin-left: 30px;
     }
-    .desktop_btn {
-        width: 250px;
-        height: 60px;
-        margin-left: 130px;
-        margin-top: 25px;
-        font-size: 18px;
-        font-weight: bold;
+    .desktop_form .desktop_btn {
+        width: 400px;
+        height: 70px;
         background: #1a2236;
+        margin-left: 56px;
+        margin-top: 80px;
+        margin-bottom: 50px;
         text-decoration: none;
         color: white;
+        font-weight: 200;
+        font-size: 25px;
         font-family: 'Poppins', sans-serif;
         text-align: center;
         border: 0;
         border-radius: 5px;
     }
-    button:hover {
+    .desktop_form .desktop_btn :hover {
         border: solid 1px #1a2236;
         background-color: #fff;
         color: #1a2236;
     }
-    .desktop_form button:active {
+    .desktop_form .desktop_btn:active {
         border: solid 3px #1a2236;
         background-color: #fff;
         color: #1a2236;
