@@ -618,6 +618,10 @@ nav a {
 
 @media screen and (min-width: 1100px) {
     /* Css for desktop version */
+    .headline .name:hover {
+      transform: scale(2);
+      margin-left: 12px;
+    }
     nav {
         display: flex;
         justify-content: center;
