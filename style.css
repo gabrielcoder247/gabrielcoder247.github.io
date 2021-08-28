@@ -897,7 +897,8 @@ nav a {
     display: flex;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 40%;
+    margin-bottom: -40%;
+    margin-top: 4.5%;
     margin-left: 10px;
     padding: 2px;
   }
