@@ -16,10 +16,6 @@ a {
   width: 100%;
 }
 
-#submit {
-  z-index: 10;
-}
-
 .a-logo {
   display: flex;
   justify-content: flex-end;
@@ -314,6 +310,7 @@ h3 {
 .text {
   text-align: left;
   margin-top: 0;
+  margin-right: 20px;
   margin-left: 10px;
 }
 
@@ -322,7 +319,7 @@ h3 {
   width: 20.57px;
   height: 15.35px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 10px;
   color: #1a2236f2;
   margin-top: 17px;
 }
@@ -695,12 +692,12 @@ nav a {
   }
 
   .headline .collaboration {
-    width: 20%;
+    width: 25%;
     height: 70px;
     background: #1a2236;
     margin-left: 130px;
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     text-decoration: none;
     color: white;
     font-weight: 200;
@@ -732,8 +729,6 @@ nav a {
     align-self: start;
     margin-top: 10px;
     margin-right: 38.8%;
-
-    /* margin-left: 10.5%; */
   }
 
   .mobile-grid-container {
@@ -896,10 +891,11 @@ nav a {
   .see-this-project .text {
     display: flex;
     font-size: 15px;
+    white-space: nowrap;
     font-family: 'Poppins', sans-serif;
     margin-bottom: -40%;
     margin-top: 4.5%;
-    margin-left: 10px;
+    margin-left: 7px;
     padding: 2px;
   }
 
@@ -1261,6 +1257,7 @@ nav a {
 
   input {
     height: 50px;
+    padding: 12px;
   }
 
   .input_area {
@@ -1273,6 +1270,8 @@ nav a {
     width: 490px;
     margin-left: 10px;
     text-align: left;
+    margin-top: 20px;
+    padding: 12px;
   }
 
   input,
@@ -1299,7 +1298,7 @@ nav a {
     height: 70px;
     background: #1a2236;
     margin-left: 20%;
-    margin-top: 80px;
+    margin-top: 30px;
     margin-bottom: 50px;
     text-decoration: none;
     color: white;
