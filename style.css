@@ -313,7 +313,7 @@ h3 {
 
 .text {
   text-align: left;
-  margin-top: 11px;
+  margin-top: 0;
   margin-left: 10px;
 }
 
@@ -695,7 +695,7 @@ nav a {
   }
 
   .headline .collaboration {
-    width: 30%;
+    width: 20%;
     height: 70px;
     background: #1a2236;
     margin-left: 130px;
@@ -745,6 +745,7 @@ nav a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(7, 1fr);
     width: 100%;
+    padding-top: 100px;
     margin-top: -200px;
   }
 
