@@ -691,7 +691,7 @@ nav a {
     margin-top: 200px;
     font-size: 20px;
     width: 35%;
-    text-align: start;
+    text-align: start !important;
   }
 
   .geometry {
