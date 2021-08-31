@@ -2,6 +2,19 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=284592116"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', '284592116');
+    </script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +25,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="hello">
         <header>
             <a class="logo-container" href="">
                 <img src="images/image_geometry_1logo.png" alt="logo">
@@ -146,7 +159,7 @@
             </div>
         </section>
         <section class="desktop_container">
-            <div class="dot_geometry">
+            <div class="dot_geometry" id="projects">
                 <p>Project</p>
                 <div class="image_dots">
                     <img src="images/image_dots.png" alt="img_dots">
@@ -256,7 +269,7 @@
             </div>
         </section>
         <section class="about_desktop_version">
-            <div class="about">
+            <div class="about" id="about">
                 <div class="language">
                     <h4>Languages</h4>
                     <ul class="group">
@@ -308,7 +321,7 @@
             </div>
 
         </section>
-        <footer class="footer">
+        <footer class="footer" id="contact">
             <div class="icon-geometry_2"></div>
             <div class="get_started">
                 <p class="get_started_header">Get started</p>

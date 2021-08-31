@@ -19,9 +19,6 @@ Additional description about the project and its features.
  click here to view this project [Live link](https://gabrielcoder247.github.io/)
 
 
-
-
-
 ## Getting Started
 ### Instructions on how to run my project locally on your machine
 1. Go  to my git repository [myportfolio](https://github.com/gabrielcoder247/myportfolio-2/tree/milestone-2)
