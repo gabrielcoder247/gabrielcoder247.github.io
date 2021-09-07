@@ -1,34 +1,26 @@
-const hambutton = document.getElementById('menu-harmbuger');
-const main = document.querySelector('.container');
-const menu = document.querySelector('.modal-container');
+const hamburgerBtn = document.getElementById('menu-harmbuger');
+const mainContainer = document.querySelector('.container');
+const modalMenu = document.querySelector('.modal-container');
+const closebutton = document.getElementById('modal-harmburger');
 
-const hamburgerTwo = document.getElementById('modal-harmburger');
+// Open modal
+const openModal = () => {
+  mainContainer.style.display = 'none';
+  modalMenu.style.display = 'block';
+};
 
-function openMenu() {
-  if (menu.classList.contains('invisible')) {
-    menu.classList.remove('invisible');
-    main.classList.add('invisible');
-  } else {
-    menu.classList.add('invisible');
-    main.classList.remove('invisible');
-  }
-}
+hamburgerBtn.addEventListener('click', openModal);
 
-hambutton.addEventListener('click', openMenu);
-hamburgerTwo.addEventListener('click', openMenu);
+// Close modal
+const closeModal = () => {
+  mainContainer.style.display = 'block';
+  modalMenu.style.display = 'none';
+};
 
-// scrollspy section
+closebutton.addEventListener('click', closeModal);
 
-const closebutton = document.querySelector('#modal-harmburger');
-
-function closeMenu() {
-  main.style.display = 'block';
-  menu.style.display = 'none';
-}
-
-closebutton.addEventListener('click', closeMenu);
-
+// Tap on menu buttons
 const listItem = document.querySelectorAll('.menu-btn');
 listItem.forEach((item) => {
-  item.addEventListener('click', closeMenu);
+  item.addEventListener('click', closeModal);
 });
