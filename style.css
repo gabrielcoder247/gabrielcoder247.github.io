@@ -4,6 +4,7 @@ body {
     padding: 0;
     margin: 0;
     width: 100vw;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -633,8 +634,69 @@ textarea:focus {
 .desktop-collaboration-btn,
 .skill_dot_bt,
 .about_desktop_version .about,
-nav a {
+nav .menu-item {
     display: none;
+}
+
+.modal-container {
+    position: absolute;
+}
+
+.menu-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.menu-a .menu-btn {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.invisible {
+    display: none;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.m-left {
+    margin-left: 220px;
+    margin-top: 30px;
+}
+
+.d-img {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 50px;
+}
+
+.d-img-b {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    min-width: 50%;
+    margin-top: 20px;
+}
+
+.bg-d {
+    background-image: url(images/mask-group.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    margin-left: 28px;
+    margin-top: 100px;
+    width: 110%;
+    height: 100px;
+    background-position: center;
 }
 
 @media screen and (min-width: 1100px) {
@@ -644,7 +706,7 @@ nav a {
         justify-content: center;
         box-shadow: 0 0.5px 0 #dddfe6;
     }
-    nav a {
+    nav .menu-item {
         display: flex;
         margin-left: 50px;
         margin-top: 20px;
@@ -671,7 +733,8 @@ nav a {
     .a-logo,
     .about-card-container,
     .logo-container,
-    .icon-geometry_2 {
+    .icon-geometry_2,
+    .modal-container {
         display: none;
     }
     .headline {
