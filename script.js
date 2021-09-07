@@ -33,3 +33,18 @@ menuSection.forEach(v => {
     })
 })
 console.log(menuSection)
+
+// for window scrollspy event
+
+window.onscroll = (() => {
+    let mainSection = document.querySelectorAll('section');
+    console.log(mainSection)
+
+    mainSection.forEach((v, i) => {
+        let rect = v.getBoundingClientRect().y
+        if (rect < window.innerHeight - 200) {
+            menuSection.forEach(v => v.classList.remove('active'))
+            menuSection[i].classList.add('active')
+        }
+    })
+})
