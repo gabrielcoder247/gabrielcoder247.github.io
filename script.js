@@ -19,32 +19,39 @@ function openMenu() {
 hambutton.addEventListener('click', openMenu);
 hamburgerTwo.addEventListener('click', openMenu);
 
+// scrollspy section
 
 
-let menuSection = document.querySelectorAll('nav a');
+const closebutton = document.querySelector('#modal-harmburger');
 
-// for clickable event
-menuSection.forEach(v => {
-    v.onclick = (() => {
-        setTimeout(() => {
-            menuSection.forEach(j => j.classList.remove('active'))
-            v.classList.add('active')
-        }, 300)
-    })
-})
-console.log(menuSection)
+function closeMenu() {
+    main.style.display = 'block';
+    menu.style.display = 'none';
+}
 
-// for window scrollspy event
+closebutton.addEventListener('click', closeMenu);
 
-window.onscroll = (() => {
-    let mainSection = document.querySelectorAll('section');
-    console.log(mainSection)
+const listItem = document.querySelectorAll('.menu-btn');
+listItem.forEach((item) => {
+    item.addEventListener('click', closeMenu);
+});
 
-    mainSection.forEach((v, i) => {
-        let rect = v.getBoundingClientRect().y
-        if (rect < window.innerHeight - 200) {
-            menuSection.forEach(v => v.classList.remove('active'))
-            menuSection[i].classList.add('active')
-        }
-    })
-})
+
+// console.log(menuSection)
+
+
+
+// // for window scrollspy event
+
+// window.onscroll = (() => {
+//     let mainSection = document.querySelectorAll('section');
+//     console.log(mainSection)
+
+//     mainSection.forEach((v, i) => {
+//         let rect = v.getBoundingClientRect().y
+//         if (rect < window.innerHeight - 200) {
+//             menuSection.forEach(v => v.classList.remove('active'))
+//             menuSection[i].classList.add('active')
+//         }
+//     })
+// })
