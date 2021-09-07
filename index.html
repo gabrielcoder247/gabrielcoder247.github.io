@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=284592116"></script>
     <script>
@@ -14,10 +17,6 @@
 
         gtag('config', '284592116');
     </script>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="style.css">
@@ -39,8 +38,8 @@
 
         <nav class="menu-a">
             <a class="menu-btn active" href="#hello">Hello</a>
-            <a class="menu-btn" href="#projects ">Portfolio</a>
-            <a class="menu-btn" href="#about">About</a>
+            <a class="menu-btn" href="#project-mobile">Portfolio</a>
+            <a class="menu-btn" href="#about-mobile">About</a>
             <a class="menu-btn" href="#contact ">Contact</a>
 
             <div class="d-img-b">
@@ -49,16 +48,16 @@
             <div class="bg-d"></div>
         </nav>
     </div>
-    <div class="container " id="hello ">
-        <header class="nav-container ">
-            <a class="logo-container " href=" ">
+    <div class="container " id="hello">
+        <header class="nav-container">
+            <a class="logo-container" href="#">
                 <img src="images/image_geometry_1logo.png " alt="logo ">
             </a>
-            <nav class="menu-list ">
-                <a class="menu-item" href="#">Hello</a>
-                <a class="menu-item" href="#">Portfolio</a>
-                <a class="menu-item" href="#">About</a>
-                <a class="menu-item" href="#">Contact</a>
+            <nav class="menu-list">
+                <a class="menu-item" href="#hello">Hello</a>
+                <a class="menu-item" href="#projects">Portfolio</a>
+                <a class="menu-item" href="#about">About</a>
+                <a class="menu-item" href="#contact">Contact</a>
 
                 <a class="a-logo "><i class="fas fa-bars hamburger" id='menu-harmbuger'></i></a>
 
@@ -74,13 +73,13 @@
                 <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
 
             </div>
-            <button class="collaboration " type="button ">
+            <button class="collaboration " type="button">
                 start collaboration
             </button>
             <div class="image-dots "></div>
             <div class="geometry "></div>
         </section>
-        <section class="mobile-grid-container ">
+        <section class="mobile-grid-container" id="project-mobile">
             <div class="project-title ">
                 <p>project</p>
             </div>
@@ -185,7 +184,7 @@
             </div>
         </section>
         <section class="desktop_container ">
-            <div class="dot_geometry " id="projects ">
+            <div class="dot_geometry " id="projects">
                 <h2>Projects</h2>
                 <div class="image_dots ">
                     <img src="images/image_dots.png " alt="img_dots ">
@@ -253,7 +252,7 @@
 
         </section>
 
-        <section class="about-card-container ">
+        <section class="about-card-container" id="about-mobile">
             <div class="about-me ">
                 <h3 class="abt ">About</h3>
                 <p class="detail ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
@@ -295,7 +294,7 @@
             </div>
         </section>
         <section class="about_desktop_version ">
-            <div class="about " id="about ">
+            <div class="about " id="about">
                 <div class="language ">
                     <h4>Languages</h4>
                     <ul class="group ">
@@ -347,45 +346,45 @@
             </div>
 
         </section>
-        <footer class="footer " id="contact ">
+        <footer class="footer " id="contact">
             <div class="icon-geometry_2 "></div>
             <div class="get_started ">
                 <p class="get_started_header ">Get started</p>
                 <p class="get_started_text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 
             </div>
-            <form class="mobile_form " action="https://formspree.io/f/xknkvkgk " method="POST ">
-                <input type="text " name="name " placeholder="Your name " maxlength="30 " required>
-                <input type="email " name="email " placeholder="Your email " required>
-                <textarea name="message " id="message " placeholder="Enter your message here... " maxlength="500 " cols="30 " rows="10 " required></textarea>
-                <button class="mobile_btn " type="button ">Start collaboration</button>
+            <form class="mobile_form" action="https://formspree.io/f/xknkvkgk" method="POST">
+                <input type="text" name="name" placeholder="Your name" maxlength="30" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" id="message" placeholder="Enter your message here... " maxlength="500" cols="30" rows="10" required></textarea>
+                <button class="mobile_btn" type="button">Start collaboration</button>
             </form>
-            <form class="desktop_form " action="https://formspree.io/f/xknkvkgk " method="POST ">
+            <form class="desktop_form" action="https://formspree.io/f/xknkvkgk" method="POST">
                 <div class="input_area ">
-                    <input class="text " type="text " name="name " placeholder="Your name " maxlength="30 " required>
-                    <input class="email " type="email " name="email " placeholder="Your email " required>
+                    <input class="text" type="text" name="name" placeholder="Your name" maxlength="30" required>
+                    <input class="email" type="email" name="email" placeholder="Your email " required>
                 </div>
-                <textarea name="message " maxlength="500 " placeholder="Enter your message here... " cols="30 " rows="10 " required></textarea>
-                <button class="desktop_btn " id="submit " type="button ">Start collaboration</button>
+                <textarea name="message" maxlength="500" placeholder="Enter your message here... " cols="30" rows="10" required></textarea>
+                <button class="desktop_btn" id="submit" type="button">Start collaboration</button>
 
             </form>
-            <div class="icon-geometry-footer ">
+            <div class="icon-geometry-footer">
             </div>
-            <div class="social_section ">
-                <div class="footer-part-a ">
-                    <a class="get_my_resume " href=" ">
+            <div class="social_section">
+                <div class="footer-part-a">
+                    <a class="get_my_resume" href="#">
                         <p>Get my Resume</p>
-                        <img src="images/ic_link_teal.png " alt="ic_link_teal ">
+                        <img src="images/ic_link_teal.png" alt="ic_link_teal">
                     </a>
                 </div>
-                <div class="footer-part-b ">
-                    <div class="social_handles ">
-                        <a href=" "><i class="fab fa-stack-overflow "></i> </a>
-                        <a href="https://github.com/gabrielcoder247 "><i class="fab fa-github "></i></a>
-                        <a href="https://stackoverflow.com/users/9981074/gabriel-nwachukwu "><i class="fab fa-twitter "></i></a>
-                        <a href="https://www.linkedin.com/in/gabriel-nwachukwu-209613173/ "><i class="fab fa-linkedin "></i></a>
-                        <a href="https://medium.com/@gabrielcoder247 "><i class="fab fa-medium-m "></i></a>
-                        <a href=" "><i class="fab fa-angellist "></i></a>
+                <div class="footer-part-b">
+                    <div class="social_handles">
+                        <a href="#"><i class="fab fa-stack-overflow"></i> </a>
+                        <a href="https://github.com/gabrielcoder247"><i class="fab fa-github"></i></a>
+                        <a href="https://stackoverflow.com/users/9981074/gabriel-nwachukwu"><i class="fab fa-twitter "></i></a>
+                        <a href="https://www.linkedin.com/in/gabriel-nwachukwu-209613173/"><i class="fab fa-linkedin "></i></a>
+                        <a href="https://medium.com/@gabrielcoder247"><i class="fab fa-medium-m"></i></a>
+                        <a href="#"><i class="fab fa-angellist"></i></a>
                     </div>
 
                 </div>
@@ -393,7 +392,7 @@
             </div>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 
 </html>
