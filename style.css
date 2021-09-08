@@ -79,15 +79,6 @@ nav .icon-menu {
   flex-wrap: wrap;
 }
 
-.html,
-.rails,
-.js {
-  float: left;
-  background-color: #92dcdc;
-  margin: 10px;
-  padding: 15px;
-}
-
 .headline .name {
   width: 90%;
   justify-self: flex-start;
@@ -177,47 +168,16 @@ nav .icon-menu {
   margin-bottom: 80px;
 }
 
-.group-bg {
+.p-image {
+  display: block;
   width: 100%;
-  height: 27vh;
-  background-size: 100%;
-  margin-top: 0;
-  background-repeat: no-repeat;
-  background-position: center;
+  height: 30vh;
+  padding-top: 50px;
+
+  /* margin-top: -20px; */
 }
 
-.bg-screen-0 {
-  background-image: url(images/Rectangle-21.png);
-}
-
-.bg-screen {
-  background-image: url(images/laptop.png);
-  margin-top: 100px;
-}
-
-.bg-screen-1 {
-  background-image: url(images/screen.png);
-  margin-top: 0;
-}
-
-.bg-screen-2 {
-  background-image: url(images/device-1.png);
-  margin-top: 0;
-}
-
-.bg-screen-3 {
-  background-image: url(images/device-4.png);
-}
-
-.bg-screen-4 {
-  background-image: url(images/device-3.png);
-}
-
-.bg-screen-5 {
-  background-image: url(images/device-3.png);
-}
-
-.project-name,
+.project-name-1,
 .project-name-2,
 .project-name-3,
 .project-name-4,
@@ -226,8 +186,8 @@ nav .icon-menu {
   display: flex;
   align-items: center;
   margin-top: 0;
-  margin-bottom: -5px;
-  height: 40vh;
+  margin-bottom: -56.5px;
+  height: 30vh;
   width: 100vw;
   flex-direction: column;
   flex-wrap: wrap;
@@ -259,7 +219,7 @@ h3 {
   background: #98dede;
   margin: 10px;
   padding: 10px;
-  width: 50px;
+  width: 80px;
   height: 15px;
   justify-self: center;
 }
@@ -281,6 +241,16 @@ h3 {
   width: 50px;
   height: 15px;
   justify-self: center;
+}
+
+.html,
+.rails,
+.js {
+  float: left;
+  background-color: #92dcdc;
+  margin: 10px;
+  padding: 15px;
+  width: 50px;
 }
 
 .frw {
@@ -450,7 +420,7 @@ h4 {
   line-height: 20px;
 }
 
-.project-container {
+.m-project-container {
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
@@ -635,7 +605,8 @@ textarea:focus {
 .desktop-collaboration-btn,
 .skill_dot_bt,
 .about_desktop_version .about,
-nav .menu-item {
+nav .menu-item,
+.m-window {
   display: none;
 }
 
@@ -644,12 +615,102 @@ nav .menu-item {
   min-width: 95%;
 }
 
+.m-window {
+  min-width: 90%;
+}
+
+.w-detail-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.w-detail-container h3 {
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+.close-btn-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.close-btn-container #close-btn {
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.b-laptop {
+  width: 80%;
+  margin-left: 20px;
+}
+
+.p-description {
+  width: 80%;
+  margin-left: 20px;
+}
+
 .menu-a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-top: 60px;
+}
+
+.l-items {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.btn-window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+#p-title {
+  color: #1a2236;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px auto;
+  width: 100%;
+}
+
+#mw-img {
+  width: 100%;
+  height: 30vh;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-source {
+  padding: 10px;
+  border: 1px solid #1a2236;
+  color: #1a2236;
+  width: 60%;
+}
+
+.btn-live {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #1a2236;
+  color: #1a2236;
+}
+
+.l-items div {
+  padding: 10px;
+  border: 1px solid #1a2236;
+  color: #1a2236;
 }
 
 .menu-a .menu-btn {
@@ -745,6 +806,19 @@ nav .menu-item {
     display: none;
   }
 
+  /* popUp window styles */
+  .m-window {
+    display: none;
+  }
+
+  .modal-container {
+    position: absolute;
+    min-width: 95%;
+  }
+
+  /* .m-window {
+    min-width: 90%;
+  } */
   .headline {
     display: grid;
     padding: 0;
