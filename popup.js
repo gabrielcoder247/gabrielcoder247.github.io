@@ -180,3 +180,15 @@ function closeWindow() {
 
 const btnclose = document.querySelector('#close-btn');
 btnclose.addEventListener('click', closeWindow);
+
+// Open modal
+const modalWindow = document.querySelector('#m-window');
+const btn = document.querySelector('#see-this-project-1');
+const btnSub = document.querySelector('#see-this-project-2');
+const openWindowModal = () => {
+    modalWindow.style.display = 'block';
+    projects.style.display = 'none';
+};
+
+btn.addEventListener('click', openWindowModal);
+btnSub.addEventListener('click', openWindowModal);
