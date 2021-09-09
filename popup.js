@@ -132,25 +132,25 @@ let workopen = '#';
 
 function openModalWindow() {
   const modalWindow = document.querySelector('#m-window');
-  const workid = this.id;
-  workopen += workid;
+  const projId = this.id;
+  workopen += projId;
 
-  const protitle = document.querySelector('#p-title');
-  protitle.textContent = projectObj[workid].name;
+  const projTitle = document.querySelector('#p-title');
+  projTitle.textContent = projectObj[projId].name;
 
-  const proimg = document.querySelector('#mw-img');
-  proimg.src = projectObj[workid].image;
+  const projImg = document.querySelector('#mw-img');
+  projImg.src = projectObj[projId].image;
 
-  const protech = document.querySelectorAll('#l-items li');
-  protech.forEach((item, i) => {
-    item.textContent = projectObj[workid].tech[i];
+  const projTech = document.querySelectorAll('#l-items li');
+  projTech.forEach((item, i) => {
+    item.textContent = projectObj[projId].tech[i];
   });
 
-  const prolive = document.querySelector('#btn-live');
-  prolive.href = projectObj[workid].live;
+  const projLive = document.querySelector('#btn-live');
+  projLive.href = projectObj[projId].live;
 
-  const prosource = document.querySelector('#btn-source');
-  prosource.href = projectObj[workid].source;
+  const projSource = document.querySelector('#btn-source');
+  projSource.href = projectObj[projId].source;
 
   modalWindow.style.display = 'block';
   header.style.display = 'none';
