@@ -178,3 +178,19 @@ btnWork3.addEventListener('click', openModalWindow);
 btnWork4.addEventListener('click', openModalWindow);
 btnWork5.addEventListener('click', openModalWindow);
 btnWork6.addEventListener('click', openModalWindow);
+
+
+
+
+
+// Open modal
+const modalWindow = document.querySelector('#m-window');
+const btn = document.querySelector('#see-this-project-1');
+const btnSub = document.querySelector('#see-this-project-2');
+const openWindowModal = () => {
+    modalWindow.style.display = 'block';
+    projects.style.display = 'none';
+};
+
+btn.addEventListener('click', openWindowModal);
+btnSub.addEventListener('click', openWindowModal);
