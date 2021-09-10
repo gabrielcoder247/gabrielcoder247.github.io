@@ -51,35 +51,30 @@
     <div class="m-window" id="m-window">
         <div class="close-btn-container">
             <a class="m-close-btn"><i class="fas fa-times  close-btn" id="close-btn"></i></a>
-            <h3 class="p-title" id="pd-title">Project name goes here...</h3>
+            <h3 class="p-title" id="pd-title"></h3>
         </div>
         <div class="w-detail-container">
-            <h3 class="p-title" id="p-title">Project name goes here...</h3>
+            <h3 class="p-title" id="p-title"></h3>
             <div class="l-items" id="l-items">
-                <div>Html/Css</div>
-                <div>Ruby on Rails</div>
-                <div>JavaScript</div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
             <div class="b-laptop">
                 <img id="mw-img" src="images/group-105.png" alt="big laptop">
             </div>
             <p class="p-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+
             </p>
             <div class="btn-window" id="btn-window">
-                <a class="btn-live" id="btn-live" href="#" target="_blank">See Live <img id="l-img" src="images/ic_link_teal.png"
-                    alt="see live icon"></a>
+                <a class="btn-live" id="btn-live" href="#" target="_blank"><img id="l-img" src="images/ic_link_teal.png" alt="see live icon"></a>
                 <br />
-                <a class="btn-source" id="btn-source" href="#" target="_blank">See Source <img id="s-img" src="images/ic_github.png"
-                    alt="see source icon"></a>
+                <a class="btn-source" id="btn-source" href="#" target="_blank"> <img id="s-img" src="images/ic_github.png" alt="see source icon"></a>
             </div>
             <div class="btn-window" id="d-btn-window">
-                <a class="btn-live" id="d-btn-live" rel="noopener" href="https://gabrielcoder247.github.io/" target="_blank">See Live <img id="l-img-btn" src="images/ic_link_teal.png"
-                    alt="see live icon"></a>
+                <a class="btn-live" id="d-btn-live" rel="noopener" href="#" target="_blank"><img id="l-img-btn" src="images/ic_link_teal.png" alt="see live icon"></a>
                 <br />
-                <a class="btn-source" id="d-btn-source" rel="noopener" href="https://github.com/gabrielcoder247/gabrielcoder247.github.io" target="_blank">See Source <img id="s-img-btn" src="images/ic_github.png"
-                    alt="see source icon"></a>
+                <a class="btn-source" id="d-btn-source" rel="noopener" href="#" target="_blank"><img id="s-img-btn" src="images/ic_github.png" alt="see source icon"></a>
             </div>
             <div class="pre-next">
                 <a href="#"><img class="arrow l-arrow" src="images/ic_arrow_left.png" alt="Previous">Previous</a>
@@ -149,7 +144,7 @@
                     <div class="rails language-title ">Ruby/Rails</div>
                     <div class="js language-title ">Javascript</div>
                 </div>
-                <a class="see-this-project" id="see-this-project-1" href="#">
+                <a class="see-this-project" id="work7" href="#">
                     <p class="text ">see this projects</p>
                     <img class="arrow-d " src="images/Union.png " alt="icon-arrow ">
 
@@ -300,11 +295,13 @@
                 <p class="get_started_text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 
             </div>
-            <form class="mobile_form" action="https://formspree.io/f/xknkvkgk" method="POST">
+            <form class="mobile_form" id="mobile-form" action="https://formspree.io/f/xknkvkgk" method="POST">
                 <input type="text" name="name" placeholder="Your name" maxlength="30" required>
-                <input type="email" name="email" placeholder="Your email" required>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
                 <textarea name="message" id="message" placeholder="Enter your message here... " maxlength="500" cols="30" rows="10" required></textarea>
-                <button class="mobile_btn" type="button">Start collaboration</button>
+
+                <span class="error-message"></span>
+                <button class="mobile_btn" type="submit">Start collaboration</button>
             </form>
             <form class="desktop_form" action="https://formspree.io/f/xknkvkgk" method="POST">
                 <div class="input_area ">
@@ -312,7 +309,9 @@
                     <input class="email" type="email" name="email" placeholder="Your email " required>
                 </div>
                 <textarea name="message" maxlength="500" placeholder="Enter your message here... " cols="30" rows="10" required></textarea>
-                <button class="desktop_btn" id="submit" type="button">Start collaboration</button>
+
+                <span class="error-message"></span>
+                <button class="desktop_btn" id="submit" type="submit">Start collaboration</button>
 
             </form>
             <div class="icon-geometry-footer">
@@ -341,6 +340,7 @@
     </div>
     <script src="script.js"></script>
     <script src="popup.js"></script>
+    <script src="form.js"></script>
 </body>
 
 </html>
