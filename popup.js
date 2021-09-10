@@ -1,102 +1,102 @@
 const projectObj = {
-  work1: {
-    id: 1,
-    name: 'Project name goes here...',
-    image: 'images/group-105.png',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    live: 'https://gabrielcoder247.github.io/',
-    source: 'https://github.com/gabrielcoder247/gabrielcoder247.github.io',
-  },
-  work2: {
-    id: 2,
-    name: 'Project name goes here...',
-    image: 'images/group-105.png',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    live: 'https://gabrielcoder247.github.io/',
-    source: 'https://github.com/gabrielcoder247/gabrielcoder247.github.io',
-  },
-  work3: {
-    id: 3,
-    name: 'Project name goes here...',
-    image: 'images/group-105.png',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    live: 'https://gabrielcoder247.github.io/',
-    source: 'https://github.com/gabrielcoder247/gabrielcoder247.github.io',
-  },
-  work4: {
-    id: 4,
-    name: 'Project name goes here...',
-    image: 'images/group-105.png',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    live: 'https://gabrielcoder247.github.io/',
-    source: 'https://github.com/gabrielcoder247/gabrielcoder247.github.io',
-  },
-  work5: {
-    id: 5,
-    name: 'Project name goes here...',
-    image: 'images/group-105.png',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    live: 'https://gabrielcoder247.github.io/',
-    source: 'https://github.com/gabrielcoder247/gabrielcoder247.github.io',
-  },
-  work6: {
-    id: 6,
-    name: 'Project name goes here...',
-    image: 'images/group-105.png',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    live: 'https://gabrielcoder247.github.io/',
-    source: 'https://github.com/gabrielcoder247/gabrielcoder247.github.io',
-  },
+    work1: {
+        id: 1,
+        name: 'Project name goes here...',
+        image: 'images/group-105.png',
+        description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+        live: 'https://gabrielcoder247.github.io/',
+        source: 'https://github.com/gabrielcoder247/gabrielcoder247.github.io',
+    },
+    work2: {
+        id: 2,
+        name: 'Project name goes here...',
+        image: 'images/group-105.png',
+        description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+        live: 'https://gabrielcoder247.github.io/',
+        source: 'https://github.com/gabrielcoder247/gabrielcoder247.github.io',
+    },
+    work3: {
+        id: 3,
+        name: 'Project name goes here...',
+        image: 'images/group-105.png',
+        description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+        live: 'https://gabrielcoder247.github.io/',
+        source: 'https://github.com/gabrielcoder247/gabrielcoder247.github.io',
+    },
+    work4: {
+        id: 4,
+        name: 'Project name goes here...',
+        image: 'images/group-105.png',
+        description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+        live: 'https://gabrielcoder247.github.io/',
+        source: 'https://github.com/gabrielcoder247/gabrielcoder247.github.io',
+    },
+    work5: {
+        id: 5,
+        name: 'Project name goes here...',
+        image: 'images/group-105.png',
+        description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+        live: 'https://gabrielcoder247.github.io/',
+        source: 'https://github.com/gabrielcoder247/gabrielcoder247.github.io',
+    },
+    work6: {
+        id: 6,
+        name: 'Project name goes here...',
+        image: 'images/group-105.png',
+        description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+        live: 'https://gabrielcoder247.github.io/',
+        source: 'https://github.com/gabrielcoder247/gabrielcoder247.github.io',
+    },
 };
 
 const projectData = [{
-  id: 1,
-  name: 'Project name goes here...',
-  image: 'images/laptop.png',
-  description: 'This is project that i have done in microverse ',
-  tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-},
-{
-  id: 2,
-  name: 'Project name goes here...',
-  image: 'images/screen.png',
-  description: 'This is project that i have done in microverse ',
-  tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-},
-{
-  id: 3,
-  name: 'Project name goes here...',
-  image: 'images/Rectangle-21devices.png',
-  description: 'This is project that i have done in microverse ',
-  tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-},
-{
-  id: 4,
-  name: 'Project name goes here...',
-  image: 'images/Rectangle47_1.png',
-  description: 'This is project that i have done in microverse ',
-  tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-},
-{
-  id: 5,
-  name: 'Project name goes here...',
-  image: 'images/Rectangle-21device-3.png',
-  description: 'This is project that i have done in microverse ',
-  tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-},
-{
-  id: 6,
-  name: 'Project name goes here...',
-  image: 'images/Rectangle21device__4.png',
-  description: 'This is project that i have done in microverse ',
-  tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-},
+        id: 1,
+        name: 'Project name goes here...',
+        image: 'images/laptop.png',
+        description: 'This is project that i have done in microverse ',
+        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+    },
+    {
+        id: 2,
+        name: 'Project name goes here...',
+        image: 'images/screen.png',
+        description: 'This is project that i have done in microverse ',
+        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+    },
+    {
+        id: 3,
+        name: 'Project name goes here...',
+        image: 'images/Rectangle-21devices.png',
+        description: 'This is project that i have done in microverse ',
+        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+    },
+    {
+        id: 4,
+        name: 'Project name goes here...',
+        image: 'images/Rectangle47_1.png',
+        description: 'This is project that i have done in microverse ',
+        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+    },
+    {
+        id: 5,
+        name: 'Project name goes here...',
+        image: 'images/Rectangle-21device-3.png',
+        description: 'This is project that i have done in microverse ',
+        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+    },
+    {
+        id: 6,
+        name: 'Project name goes here...',
+        image: 'images/Rectangle21device__4.png',
+        description: 'This is project that i have done in microverse ',
+        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+    },
 ];
 
 const projectContainer = document.querySelector('.m-project-container');
@@ -104,7 +104,7 @@ const projectContainer = document.querySelector('.m-project-container');
 let projectTags = '';
 
 projectData.forEach((item) => {
-  projectTags += `
+    projectTags += `
     <img src=${item.image}  class="p-image"alt="work${item.id} image" id="work${item.id}img" />
     <div class="project-name-${item.id} flex" id="project-name-${item.id}">
       <h3 class="work-name">${item.name}</h3>
@@ -131,32 +131,32 @@ const hamburger = document.querySelector('#modal-harmburger');
 let workopen = '#';
 
 function openModalWindow() {
-  const modalWindow = document.querySelector('#m-window');
-  const projId = this.id;
-  workopen += projId;
+    const modalWindow = document.querySelector('#m-window');
+    const projId = this.id;
+    workopen += projId;
 
-  const projTitle = document.querySelector('#p-title');
-  projTitle.textContent = projectObj[projId].name;
+    const projTitle = document.querySelector('#p-title');
+    projTitle.textContent = projectObj[projId].name;
 
-  const projImg = document.querySelector('#mw-img');
-  projImg.src = projectObj[projId].image;
+    const projImg = document.querySelector('#mw-img');
+    projImg.src = projectObj[projId].image;
 
-  const projTech = document.querySelectorAll('#l-items li');
-  projTech.forEach((item, i) => {
-    item.textContent = projectObj[projId].tech[i];
-  });
+    const projTech = document.querySelectorAll('#l-items li');
+    projTech.forEach((item, i) => {
+        item.textContent = projectObj[projId].tech[i];
+    });
 
-  const projLive = document.querySelector('#btn-live');
-  projLive.href = projectObj[projId].live;
+    const projLive = document.querySelector('#btn-live');
+    projLive.href = projectObj[projId].live;
 
-  const projSource = document.querySelector('#btn-source');
-  projSource.href = projectObj[projId].source;
+    const projSource = document.querySelector('#btn-source');
+    projSource.href = projectObj[projId].source;
 
-  modalWindow.style.display = 'block';
-  header.style.display = 'none';
-  projects.style.display = 'none';
-  pagefooter.style.display = 'none';
-  hamburger.style.display = 'block';
+    modalWindow.style.display = 'block';
+    header.style.display = 'none';
+    projects.style.display = 'none';
+    pagefooter.style.display = 'none';
+    hamburger.style.display = 'block';
 }
 
 const btnWork1 = document.querySelector('#work1');
@@ -174,16 +174,16 @@ btnWork5.addEventListener('click', openModalWindow);
 btnWork6.addEventListener('click', openModalWindow);
 
 function closeWindow() {
-  const popupwindow = document.querySelector('#m-window');
-  popupwindow.style.display = 'none';
-  header.style.display = 'flex';
-  projects.style.display = 'block';
-  pagefooter.style.display = 'flex';
-  hamburger.style.display = 'block';
-  const towork = document.createElement('a');
-  towork.href = workopen;
-  towork.click();
-  workopen = '#';
+    const popupwindow = document.querySelector('#m-window');
+    popupwindow.style.display = 'none';
+    header.style.display = 'flex';
+    projects.style.display = 'block';
+    pagefooter.style.display = 'flex';
+    hamburger.style.display = 'block';
+    const towork = document.createElement('a');
+    towork.href = workopen;
+    towork.click();
+    workopen = '#';
 }
 
 const btnclose = document.querySelector('#close-btn');
@@ -194,8 +194,8 @@ const modalWindow = document.querySelector('#m-window');
 const btn = document.querySelector('#see-this-project-1');
 const btnSub = document.querySelector('#see-this-project-2');
 const openWindowModal = () => {
-  modalWindow.style.display = 'block';
-  projects.style.display = 'none';
+    modalWindow.style.display = 'block';
+    projects.style.display = 'none';
 };
 
 btn.addEventListener('click', openWindowModal);
