@@ -3,7 +3,7 @@ function validation() {
     const name = form.elements.name.value;
     const email = form.elements.email.value;
     const comment = form.elements.comment.value;
-    const message = document.getElementById('message-d');
+    const message = document.getElementById('message');
     message.innerHTML = '';
 
     form.addEventListener('submit', (event) => {
@@ -17,6 +17,7 @@ function validation() {
             event.preventDefault();
             message.innerHTML = '* Text area should have at least 5 characters';
         } else {
+            message.innerHTML = null;
             form.submit();
         }
     });
