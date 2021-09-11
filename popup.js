@@ -84,8 +84,6 @@ const projectData = [{
 },
 ];
 
-console.log(projectData);
-
 const projectContainer = document.querySelector('.m-project-container');
 
 let projectTags = '';
@@ -195,7 +193,6 @@ const openWindowModal = () => {
 
   const projTitle = document.querySelector('.p-title');
   projTitle.textContent = projectData[projId].name;
-  console.log(projTitle);
 
   const description = document.querySelector('.p-description');
   description.textContent = projectData[projId].description;
