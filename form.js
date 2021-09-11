@@ -13,3 +13,4 @@ const validateEmail = (e) => {
   }
 };
 
+form.addEventListener('submit', validateEmail);
