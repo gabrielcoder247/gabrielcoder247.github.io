@@ -172,6 +172,7 @@ nav .icon-menu {
   /* margin-top: -20px; */
 }
 
+.project-name-0,
 .project-name-1,
 .project-name-2,
 .project-name-3,
@@ -617,7 +618,7 @@ nav .menu-item,
 }
 
 .m-window {
-  min-width: 90%;
+  width: 95%;
 }
 
 .w-detail-container {
@@ -717,11 +718,11 @@ nav .menu-item,
   padding: 10px;
   border: 1px solid #1a2236;
   color: #1a2236;
-  width: 70%;
+  width: 60%;
 }
 
 .btn-live {
-  width: 70%;
+  width: 60%;
   padding: 10px;
   border: 1px solid #1a2236;
   color: #1a2236;
