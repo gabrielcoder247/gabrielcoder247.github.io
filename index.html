@@ -297,21 +297,21 @@
             </div>
             <form class="mobile_form" id="mobile-form" action="https://formspree.io/f/xknkvkgk" method="POST">
                 <input type="text" name="name" placeholder="Your name" maxlength="30" required>
-                <input type="email" id="email" name="email" placeholder="Your email" required>
-                <textarea name="message" id="message" placeholder="Enter your message here... " maxlength="500" cols="30" rows="10" required></textarea>
+                <input type="email" id="m-email" name="email" placeholder="Your email" required>
+                <textarea name="message" id="m-message" placeholder="Enter your message here... " maxlength="500" cols="30" rows="10" required></textarea>
 
                 <span class="error-message"></span>
                 <button class="mobile_btn" type="submit">Start collaboration</button>
             </form>
-            <form class="desktop_form" action="https://formspree.io/f/xknkvkgk" method="POST">
+            <form id="form" class="desktop_form" action="https://formspree.io/f/xknkvkgk" method="POST">
                 <div class="input_area ">
-                    <input class="text" type="text" name="name" placeholder="Your name" maxlength="30" required>
-                    <input class="email" type="email" name="email" placeholder="Your email " required>
+                    <input id="name" class="text" type="text" name="name" placeholder="Your name" maxlength="30">
+                    <input id="email" class="email" type="email" name="email" placeholder="Your email">
                 </div>
-                <textarea name="message" maxlength="500" placeholder="Enter your message here... " cols="30" rows="10" required></textarea>
+                <textarea id="comment" name="comment" maxlength="500" placeholder="Enter your message here... " cols="30" rows="10"></textarea>
 
-                <span class="error-message"></span>
-                <button class="desktop_btn" id="submit" type="submit">Start collaboration</button>
+                <small id="message"></small>
+                <button onclick="validation()" class="desktop_btn" id="submit" type="submit">Start collaboration</button>
 
             </form>
             <div class="icon-geometry-footer">
@@ -341,6 +341,7 @@
     <script src="script.js"></script>
     <script src="popup.js"></script>
     <script src="form.js"></script>
+    <script src="storage.js"></script>
 </body>
 
 </html>
