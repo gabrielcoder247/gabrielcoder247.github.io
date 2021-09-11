@@ -10,3 +10,17 @@ function storeForm() {
     };
     localStorage.setItem('storage', JSON.stringify(myStorage));
 }
+function refresh() {
+    if (localStorage.getItem('storage')) {
+      const oldStorage = localStorage.getItem('storage');
+      const newStorage = JSON.parse(oldStorage);
+      const form = document.getElementById('form');
+      form.name.value = newStorage.userName;
+      form.email.value = newStorage.userEmail;
+      form.comment.value = newStorage.userComment;
+    }
+  }
+  
+  window.onload = refresh;
+  
+  storeForm();
