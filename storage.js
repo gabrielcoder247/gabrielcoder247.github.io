@@ -22,6 +22,6 @@ function refresh() {
   }
 }
 
-window.onload = refresh;
+window.onload = refresh();
 
 storeForm();

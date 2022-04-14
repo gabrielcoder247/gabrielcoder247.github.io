@@ -6,7 +6,7 @@
 
 ![screenshot](images/mobile-menu.png)
 
-Additional description about the project and its features.
+Additional description about the project and its features
 
 ## Built With
 
